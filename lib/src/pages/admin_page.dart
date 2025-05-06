@@ -1,5 +1,6 @@
 import 'package:app_fluxolivrep/src/widget/admin_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:app_fluxolivrep/src/pages/users_screen.dart';
 
 class AdminPage extends StatelessWidget {
   const AdminPage({super.key});
@@ -51,7 +52,7 @@ class AdminPage extends StatelessWidget {
                   AdminWidget(
                     title: 'Usuários',
                     imagePath: 'assets/images/user_admin.png',
-                    rota: '', 
+                    rota: '/users', 
                   ),
                   AdminWidget(
                     title: 'Relatórios',
